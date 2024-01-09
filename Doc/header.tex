@@ -1,4 +1,4 @@
-\usepackage[a4paper, top=20mm, left =20mm, right =20mm ,bottom=20mm ]{geometry}
+\usepackage[a4paper, top=20mm, left =20mm, right =20mm ,bottom=20mm]{geometry}
 \usepackage{lineno}
 \modulolinenumbers[1]
 \journal{TRE}
@@ -40,8 +40,8 @@
 \newtheorem{theorem}{Theorem} % add by zhou
  
 %\usepackage{longtable}
-%\usepackage{natbib} 
-%\usepackage[super,square]{natbib} 
+% \usepackage{natbib} 
+% \usepackage[super,square]{natbib}
 \usepackage{longtable} 
 \usepackage{float}
 \usepackage{footnote}
@@ -63,10 +63,12 @@
 %\bibliographystyle{model1a-num-names}
 
 %% Harvard
-% \bibliographystyle{model2-names.bst}\biboptions{authoryear}
-%% Vancouver numbered
-%\usepackage{numcompress}\bibliographystyle{model3-num-names}
+% \bibliographystyle{style/model2-names}
+\bibliographystyle{style/elsarticle-harv}
 
+%% Vancouver numbered
+% \usepackage{numcompress}\bibliographystyle{model3-num-names}
+\biboptions{authoryear}
 %% Vancouver name/year
 %\usepackage{numcompress}\bibliographystyle{model4-names}\biboptions{authoryear}
 
@@ -79,7 +81,7 @@
 
 %% `Elsevier LaTeX' style
 %\bibliographystyle{elsarticle-num}
-%%%%%%%%%%%%%%%%%%%%%%%
+% 
 %\bibliographystyle{apalike}
 \newlength\mylength
 \renewcommand{\baselinestretch}{1.5}
@@ -89,10 +91,8 @@
 % 
 % 
 % 
+% \usepackage{biblatex}
+% \addbibresource{references.bib}
 % 
-% 
-% 
-% 
-% 
-% 
-% 
+\usepackage{tabularx}
+\usepackage{longtable}

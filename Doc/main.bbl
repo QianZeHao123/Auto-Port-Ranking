@@ -1,0 +1,81 @@
+\begin{thebibliography}{12}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Aljrees(2024)}]{10.1371/journal.pone.0295632}
+\bibinfo{author}{Aljrees, T.}, \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{Improving prediction of cervical cancer using knn imputer and multi-model ensemble learning}.
+\newblock \bibinfo{journal}{PLOS ONE} \bibinfo{volume}{19}, \bibinfo{pages}{1--24}.
+\newblock \URLprefix \url{https://doi.org/10.1371/journal.pone.0295632}, \DOIprefix\doi{10.1371/journal.pone.0295632}.
+%Type = Misc
+\bibitem[{Camino et~al.(2019)Camino, Hammerschmidt and State}]{camino2019improving}
+\bibinfo{author}{Camino, R.D.}, \bibinfo{author}{Hammerschmidt, C.A.}, \bibinfo{author}{State, R.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Improving missing data imputation with deep generative models}.
+\newblock \href{http://arxiv.org/abs/1902.10666}{{\tt arXiv:1902.10666}}.
+%Type = Article
+\bibitem[{Emmanuel et~al.(2021)Emmanuel, Maupong, Mpoeleng, Semong, Mphago and Tabona}]{Emmanuel2021}
+\bibinfo{author}{Emmanuel, T.}, \bibinfo{author}{Maupong, T.}, \bibinfo{author}{Mpoeleng, D.}, \bibinfo{author}{Semong, T.}, \bibinfo{author}{Mphago, B.}, \bibinfo{author}{Tabona, O.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{A survey on missing data in machine learning}.
+\newblock \bibinfo{journal}{Journal of Big Data} \bibinfo{volume}{8}, \bibinfo{pages}{140}.
+\newblock \URLprefix \url{https://doi.org/10.1186/s40537-021-00516-9}, \DOIprefix\doi{10.1186/s40537-021-00516-9}. \bibinfo{note}{iD: Emmanuel2021}.
+%Type = Article
+\bibitem[{Jakobsen et~al.(2017)Jakobsen, Gluud, Wetterslev and Winkel}]{Jakobsen2017}
+\bibinfo{author}{Jakobsen, J.C.}, \bibinfo{author}{Gluud, C.}, \bibinfo{author}{Wetterslev, J.}, \bibinfo{author}{Winkel, P.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{When and how should multiple imputation be used for handling missing data in randomised clinical trials - a practical guide with flowcharts}.
+\newblock \bibinfo{journal}{BMC Medical Research Methodology} \bibinfo{volume}{17}, \bibinfo{pages}{162}.
+\newblock \URLprefix \url{https://doi.org/10.1186/s12874-017-0442-1}, \DOIprefix\doi{10.1186/s12874-017-0442-1}. \bibinfo{note}{iD: Jakobsen2017}.
+%Type = Article
+\bibitem[{Khan and Hoque(2020)}]{Khan2020}
+\bibinfo{author}{Khan, S.I.}, \bibinfo{author}{Hoque, A.S.M.L.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Sice: an improved missing data imputation technique}.
+\newblock \bibinfo{journal}{Journal of Big Data} \bibinfo{volume}{7}, \bibinfo{pages}{37}.
+\newblock \URLprefix \url{https://doi.org/10.1186/s40537-020-00313-w}, \DOIprefix\doi{10.1186/s40537-020-00313-w}. \bibinfo{note}{iD: Khan2020}.
+%Type = Article
+\bibitem[{Kleinbort(2020)}]{Kleinbort2020}
+\bibinfo{author}{Kleinbort, A.}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Data imputation: Beyond mean, median, and mode}.
+\newblock \bibinfo{journal}{Open Data Science} \URLprefix \url{https://opendatascience.com/data-imputation-beyond-mean-median-and-mode/}.
+%Type = Inproceedings
+\bibitem[{Mei et~al.(2021)Mei, Song, Fang, Yang, Fang and Long}]{9458712}
+\bibinfo{author}{Mei, Y.}, \bibinfo{author}{Song, S.}, \bibinfo{author}{Fang, C.}, \bibinfo{author}{Yang, H.}, \bibinfo{author}{Fang, J.}, \bibinfo{author}{Long, J.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Capturing semantics for imputation with pre-trained language models}, in: \bibinfo{booktitle}{2021 IEEE 37th International Conference on Data Engineering (ICDE)}, pp. \bibinfo{pages}{61--72}.
+\newblock \DOIprefix\doi{10.1109/ICDE51399.2021.00013}.
+%Type = Inproceedings
+\bibitem[{Murti et~al.(2019)Murti, Pujianto, Wibawa and Akbar}]{inproceedingsKNearest}
+\bibinfo{author}{Murti, D.}, \bibinfo{author}{Pujianto, U.}, \bibinfo{author}{Wibawa, A.}, \bibinfo{author}{Akbar, M.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{K-nearest neighbor (k-nn) based missing data imputation}, in: \bibinfo{booktitle}{2019 5th International Conference on Science in Information Technology}, pp. \bibinfo{pages}{83--88}.
+\newblock \DOIprefix\doi{10.1109/ICSITech46713.2019.8987530}.
+%Type = Misc
+\bibitem[{Park et~al.(2022)Park, Muller, Arora, Faybishenko, Pastorello, Varadharajan, Sahu and Agarwal}]{park2022longterm}
+\bibinfo{author}{Park, J.}, \bibinfo{author}{Muller, J.}, \bibinfo{author}{Arora, B.}, \bibinfo{author}{Faybishenko, B.}, \bibinfo{author}{Pastorello, G.}, \bibinfo{author}{Varadharajan, C.}, \bibinfo{author}{Sahu, R.}, \bibinfo{author}{Agarwal, D.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Long-term missing value imputation for time series data using deep neural networks}.
+\newblock \href{http://arxiv.org/abs/2202.12441}{{\tt arXiv:2202.12441}}.
+%Type = Article
+\bibitem[{Sterne et~al.(2009)Sterne, White, Carlin, Spratt, Royston, Kenward, Wood and Carpenter}]{Sterneb2393}
+\bibinfo{author}{Sterne, J.A.C.}, \bibinfo{author}{White, I.R.}, \bibinfo{author}{Carlin, J.B.}, \bibinfo{author}{Spratt, M.}, \bibinfo{author}{Royston, P.}, \bibinfo{author}{Kenward, M.G.}, \bibinfo{author}{Wood, A.M.}, \bibinfo{author}{Carpenter, J.R.}, \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{Multiple imputation for missing data in epidemiological and clinical research: potential and pitfalls}.
+\newblock \bibinfo{journal}{BMJ} \bibinfo{volume}{338}.
+\newblock \URLprefix \url{https://www.bmj.com/content/338/bmj.b2393}, \DOIprefix\doi{10.1136/bmj.b2393}, \href{http://arxiv.org/abs/https://www.bmj.com/content}{{\tt arXiv:https://www.bmj.com/content}}.
+%Type = Misc
+\bibitem[{Wang et~al.(2022)Wang, Akande, Poulos and Li}]{wang2022deep}
+\bibinfo{author}{Wang, Z.}, \bibinfo{author}{Akande, O.}, \bibinfo{author}{Poulos, J.}, \bibinfo{author}{Li, F.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Are deep learning models superior for missing data imputation in large surveys? evidence from an empirical comparison}.
+\newblock \href{http://arxiv.org/abs/2103.09316}{{\tt arXiv:2103.09316}}.
+%Type = Article
+\bibitem[{Zhang et~al.(2017)Zhang, Li, Zong, Zhu and Cheng}]{articleLearnKNN}
+\bibinfo{author}{Zhang, S.}, \bibinfo{author}{Li, X.}, \bibinfo{author}{Zong, M.}, \bibinfo{author}{Zhu, X.}, \bibinfo{author}{Cheng, D.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Learning k for knn classification}.
+\newblock \bibinfo{journal}{ACM Transactions on Intelligent Systems and Technology} \bibinfo{volume}{8}, \bibinfo{pages}{1--19}.
+\newblock \DOIprefix\doi{10.1145/2990508}.
+
+\end{thebibliography}
